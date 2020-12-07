@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>Erő:</td>
+            <td id="ero">0</td>
+            <td><button onclick="addEro()">+</button></td>
+        </tr>
+        <tr>
+            <td>Kitartás:</td>
+            <td id="kitartas">0</td>
+            <td><button onclick="addKitartas()">+</button></td>
+        </tr>
+        <tr>
+            <td>Élet:</td>
+            <td id="elet">0</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <button onclick="sebzes(8)">Sebzés (-8)</button>
+    <button onclick="gyogyitas(20)">Gyógyítás (+20)</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
